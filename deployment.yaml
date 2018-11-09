@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: demo
-        image: 192.168.3.207:5000/fft/demo:v3
+        image: 192.168.3.207:5000/fft/demo:v4
         ports:
         - containerPort: 8080
 
