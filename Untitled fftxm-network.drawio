@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-29T05:53:55.462Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0" etag="aOLKuXRPihmKdDCSVhmo" version="12.1.8" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-29T05:57:05.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0" etag="dtKRNNXjQ_KparrSr435" version="12.1.8" type="github" pages="1">
   <diagram id="8XCR07NNP3qjDQZ5qktM" name="Page-1">
     <mxGraphModel dx="1935" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
           <mxGeometry x="-688" y="842.5" width="100" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="JX5E0a5hVkborWCtqUpK-27" value="前台交换机S1024R" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.switch;" vertex="1" parent="1">
-          <mxGeometry x="80" y="255" width="100" height="30" as="geometry"/>
+          <mxGeometry x="20" y="220" width="100" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="JX5E0a5hVkborWCtqUpK-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#CC0000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-800" y="286" width="56" height="50" as="geometry"/>
@@ -292,7 +292,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JX5E0a5hVkborWCtqUpK-63" value="2台PC机" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
-          <mxGeometry x="80" y="365" width="100" height="70" as="geometry"/>
+          <mxGeometry x="30" y="15" width="100" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="JX5E0a5hVkborWCtqUpK-64" value="打印机" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.printer;" vertex="1" parent="1">
           <mxGeometry x="-510" y="1230" width="100" height="100" as="geometry"/>
@@ -301,11 +301,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-610" y="1440" as="sourcePoint"/>
             <mxPoint x="-560" y="1390" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="JX5E0a5hVkborWCtqUpK-66" value="用于有线连接" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="JX5E0a5hVkborWCtqUpK-65">
-          <mxGeometry x="-0.1251" y="2" relative="1" as="geometry">
-            <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="JX5E0a5hVkborWCtqUpK-67" value="用于有线连接" style="endArrow=classic;html=1;strokeColor=#CC0000;strokeWidth=2;" edge="1" parent="1" target="JX5E0a5hVkborWCtqUpK-63" source="JX5E0a5hVkborWCtqUpK-27">
@@ -352,6 +347,11 @@
             <Array as="points">
               <mxPoint x="-530" y="200"/>
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JX5E0a5hVkborWCtqUpK-78" value="5号到5号" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="JX5E0a5hVkborWCtqUpK-76">
+          <mxGeometry x="-0.0929" y="-24" relative="1" as="geometry">
+            <mxPoint x="-1.5" y="-24" as="offset"/>
           </mxGeometry>
         </mxCell>
       </root>
